@@ -1,0 +1,44 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Open Sans", sans-serif;
+}
+/* nav related styles */
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.text-primary {
+  color: #ff7530;
+}
+.bg-primary {
+  background-color: #fd6e0a;
+}
+.nav-title {
+  font-size: 45px;
+  font-weight: 800;
+}
+nav > ul {
+  display: flex;
+  list-style: none;
+  gap: 60px;
+  align-items: center;
+}
+nav > ul > li > a {
+  text-decoration: none;
+  text-transform: capitalize;
+  color: #474747;
+  font-size: 20px;
+}
+.hire-me-button {
+  width: 150px;
+  height: 64px;
+  border: none;
+  font-weight: bold;
+  font-size: 20px;
+  color: #fff;
+  text-transform: capitalize;
+}
