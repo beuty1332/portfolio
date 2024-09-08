@@ -10,12 +10,31 @@ nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  margin: 0px 200px;
+  padding: 20px 0;
 }
 .text-primary {
-  color: #ff7530;
+  color: #fd6e0a;
 }
-.bg-primary {
+.btn-primary {
   background-color: #fd6e0a;
+  padding: 15px 30px;
+  border: none;
+  font-weight: bold;
+  font-size: 20px;
+  color: #fff;
+  text-transform: capitalize;
+  border-radius: 5px;
+}
+.btn-secondary {
+  background-color: #fff8f3;
+  padding: 15px 30px;
+  border: 1px solid #fd6e0a;
+  font-weight: bold;
+  font-size: 20px;
+  color: #fd6e0a;
+  text-transform: capitalize;
+  border-radius: 5px;
 }
 .nav-title {
   font-size: 45px;
@@ -33,12 +52,45 @@ nav > ul > li > a {
   color: #474747;
   font-size: 20px;
 }
-.hire-me-button {
-  width: 150px;
-  height: 64px;
-  border: none;
-  font-weight: bold;
-  font-size: 20px;
-  color: #fff;
-  text-transform: capitalize;
+
+/* header style related */
+.header {
+  background-color: #fff8f3;
+}
+.banner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 38px 0px 200px;
+  background-image: url("/images/header_bg.png");
+  background-repeat: no-repeat;
+  background-position: bottom right;
+}
+.banner-left {
+  width: 585px;
+}
+.banner-sub-tittle {
+  color: #474747;
+  font-size: 48px;
+  font-weight: 600;
+}
+.banner-tittle {
+  color: #181818;
+  font-size: 85px;
+  font-weight: 700;
+}
+.banner-p {
+  color: #757575;
+  font-size: 18px;
+  font-weight: 400;
+}
+.action-button-container {
+  margin-top: 30px;
+  display: flex;
+
+  gap: 30px;
+}
+.profile-picture {
+  width: 584px;
+  height: 676px;
 }
